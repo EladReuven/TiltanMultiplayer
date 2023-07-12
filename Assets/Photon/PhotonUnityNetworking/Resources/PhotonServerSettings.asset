@@ -17,7 +17,7 @@ MonoBehaviour:
     AppIdFusion: 
     AppIdChat: 
     AppIdVoice: 
-    AppVersion: 0.71
+    AppVersion: 0.69
     UseNameServer: 1
     FixedRegion: 
     Server: 
@@ -43,7 +43,9 @@ MonoBehaviour:
   - CountdownStarted
   - AskForRandomSpawnPoint
   - SpawnPlayer
-  - SetNickName
+  - RemoveCharacterChoice
+  - UpdateCharacterChoice
+  - EveryoneReadyCheck
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1
